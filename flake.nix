@@ -50,7 +50,10 @@
 					stm32flash
 					stm32cubemx
 					stm32loader
-                    self.formatter.${system}
+                    stlink
+					stlink-gui
+					stlink-tool
+					self.formatter.${system}
                   ]
                   ++ lib.optionals (!stdenv.hostPlatform.isDarwin) [ gdb ];
               };
