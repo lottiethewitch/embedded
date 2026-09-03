@@ -44,6 +44,7 @@
                     doxygen
                     gtest
                     lcov
+					openocd
                     vcpkg
                     vcpkg-tool
 					gcc-arm-embedded

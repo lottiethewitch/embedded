@@ -1,0 +1,3 @@
+/home/lottie/Dev/embedded/build/CMakeFiles/startup.dir
+/home/lottie/Dev/embedded/build/CMakeFiles/edit_cache.dir
+/home/lottie/Dev/embedded/build/CMakeFiles/rebuild_cache.dir
