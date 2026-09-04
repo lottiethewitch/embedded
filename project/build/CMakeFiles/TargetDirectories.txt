@@ -1,0 +1,3 @@
+/home/lottie/Dev/embedded/project/build/CMakeFiles/stm32_test_project.elf.dir
+/home/lottie/Dev/embedded/project/build/CMakeFiles/edit_cache.dir
+/home/lottie/Dev/embedded/project/build/CMakeFiles/rebuild_cache.dir

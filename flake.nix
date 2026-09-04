@@ -48,6 +48,9 @@
                     vcpkg
                     vcpkg-tool
 					gcc-arm-embedded
+					gdb
+					ninja
+					libusb1
 					stm32flash
 					stm32cubemx
 					stm32loader

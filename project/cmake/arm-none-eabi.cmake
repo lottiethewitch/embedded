@@ -1,0 +1,16 @@
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_SYSTEM_PROCESSOR arm)
+
+set(TOOLCHAIN_PREFIX arm-none-eabi)
+
+set(CMAKE_C_COMPILER ${TOOLCHAIN_PREFIX}-gcc)
+set(CMAKE_ASM_COMPILER ${TOOLCHAIN_PREFIX}-gcc)
+set(CMAKE_OBJCOPY ${TOOLCHAIN_PREFIX}-objcopy)
+set(CMAKE_SIZE ${TOOLCHAIN_PREFIX}-size)
+
+set(CMAKE_C_FLAGS "-mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -O0 -g3")
+
+set(CMAKE_EXE_LINKER_FLAGS "-T${LINKER_SCRIPT} -Wl,--gc-sections")
+
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
